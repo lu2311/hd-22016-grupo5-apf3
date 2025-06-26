@@ -19,7 +19,7 @@ jobs:
       - name: Mostrar repositorio y rama
         run: echo "🔎 Rama: ${{ github.ref }} | Repo: ${{ github.repository }}"
 
-      - name: Checkout del código
+      - name: Checkout del codigo
         uses: actions/checkout@v4
 
       - name: Mostrar archivos
