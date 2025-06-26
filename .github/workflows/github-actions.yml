@@ -17,7 +17,7 @@ jobs:
         run: echo "🐧 Este trabajo se ejecuta en ${{ runner.os }}"
 
       - name: Mostrar repositorio y rama
-        run: echo "🔎 Rama: ${{ github.ref }} | Repo: ${{ github.repository }}"
+        run: echo "🔎 Rama:${{ github.ref }} | Repo:${{ github.repository }}"
 
       - name: Checkout del codigo
         uses: actions/checkout@v4
